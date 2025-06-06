@@ -3,36 +3,34 @@
     {
       "id": 1,
       "title": "Weather App",
-      "thumbnail": "images/lms.jpg",
+      "thumbnail": "images/weather.png",
       "previewImages": [
-        "images/ecommerce.jpg",
-        "images/lms.jpg",
-        "images/licence.jpeg"
+        "images/weather.jpg"
+        
       ],
-      "description": "A simple, sleek weather app designed with React Native (Expo). The UI focuses on clean, attractive design, displaying essential weather details like temperature, location, and weather conditions.",
-      "longDescription": "This weather application provides real-time weather updates with a beautiful, intuitive interface. Built with React Native and Expo, it features dynamic background changes based on current weather conditions, 5-day forecasts, and severe weather alerts. The app uses the OpenWeatherMap API to fetch accurate weather data for locations worldwide.",
-      "year": "2025",
-      "tags": ["app development", "react native", "expo", "tailwind", "mobile", "ui/ux"],
-      "technologies": ["React Native", "Expo", "Tailwind CSS", "OpenWeatherMap API"],
+      "description": "A simple 🌐 Real-Time Weather App that displays current weather conditions for any city worldwide using the OpenWeatherMap API 🔥.",
+      "longDescription": "A simple weather app that displays real-time weather conditions of cities worldwide using the OpenWeatherMap API. Users can search for any city and view current weather details like temperature, humidity, wind speed, and weather status.",
+      "year": "2024",
+      "tags": ["web development", "tailwind", "ui/ux"],
+      "technologies": [ "HTML","Tailwind CSS", "OpenWeatherMap API"],
       "features": [
         "Real-time weather updates",
-        "5-day forecast",
         "Location-based weather",
         "Dynamic UI changes based on weather",
         "Severe weather alerts"
       ],
       "details": {
-        "temperature": "12° c",
-        "location": "London",
-        "weatherCondition": "Partly Cloudy",
-        "humidity": "65%",
+        "temperature":" 12° c",
+        "location": " pokhara",
+        "weatherCondition": "boken Cloudy",
+        "humidity": "23%",
         "windSpeed": "12 km/h",
         "eventCalendar": {
           "days": 16,
           "events": 5
         }
       },
-      "githubLink": "https://github.com/yourusername/weather-app",
+      "githubLink": "https://github.com/ashish769/weather_app",
       "liveDemoLink": "https://yourappdemo.com"
     },
     {
@@ -40,20 +38,19 @@
       "title": "E-commerce Platform",
       "thumbnail": "images/ecommerce.jpg",
       "previewImages": [
-         "images/ecommerce.jpg",
-        "images/lms.jpg",
-        "images/licence.jpeg"
+         "images/ecommerce.jpg"
+        
       ],
       "description": "A full-featured e-commerce platform with product listings, cart functionality, and secure checkout.",
-      "longDescription": "This comprehensive e-commerce solution includes product catalog management, user authentication, shopping cart functionality, and secure payment processing. Built with MERN stack (MongoDB, Express, React, Node.js), it provides a seamless shopping experience with features like product search, filters, user reviews, and order tracking.",
+      "longDescription": "This comprehensive e-commerce solution includes product catalog management, user authentication, shopping cart functionality, and secure payment processing. Built with python django , it provides a seamless shopping experience with features like product search, filters, user reviews, and order tracking.",
       "year": "2024",
-      "tags": ["web development", "react", "node.js", "mongodb", "fullstack", "ecommerce"],
-      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API", "Redux"],
+      "tags": ["web development",  "fullstack", "ecommerce"],
+      "technologies": ["Django", "js", "Python", "Dummy API","MySQL"],
       "features": [
         "Product catalog with search and filters",
         "User authentication",
         "Shopping cart",
-        "Secure checkout with Stripe",
+        "Secure checkout ",
         "Order history and tracking"
       ],
       "details": {
@@ -61,38 +58,95 @@
         "conversionRate": "3.2%",
         "averageOrderValue": "$89.50"
       },
-      "githubLink": "https://github.com/yourusername/ecommerce-app",
+      "githubLink": "https://github.com/ashish769/Ecommerce",
       "liveDemoLink": "https://yourecommercedemo.com"
     },
     {
-      "id": 3,
-      "title": "Task Management Dashboard",
-      "thumbnail": "images/ashish.jpg",
-      "previewImages": [
-         "images/ecommerce.jpg",
-        "images/lms.jpg",
-        "images/licence.jpeg"
-      ],
-      "description": "Productivity application for task management with team collaboration features.",
-      "longDescription": "This task management solution helps individuals and teams organize their work with features like task assignment, due dates, priority levels, and progress tracking. The application includes real-time updates, notifications, and integrations with calendar apps. Built with Vue.js and Firebase for real-time data synchronization.",
-      "year": "2024",
-      "tags": ["web development", "vue", "firebase", "productivity", "dashboard"],
-      "technologies": ["Vue.js", "Firebase", "Vuetify", "Chart.js"],
-      "features": [
-        "Task creation and assignment",
-        "Due dates and reminders",
-        "Progress tracking",
-        "Team collaboration",
-        "Calendar integration"
-      ],
-      "details": {
-        "activeUsers": "500+",
-        "tasksCompleted": "15,000+",
-        "teamsUsing": "45+"
-      },
-      "githubLink": "https://github.com/yourusername/task-app",
-      "liveDemoLink": "https://yourtaskappdemo.com"
-    }
+  "id": 3,
+  "title": "Momo Ordering App",
+  "thumbnail": "images/momo.png",
+  "previewImages": [
+    "images/momo.png"
+    
+  ],
+  "description": "A simple and elegant food ordering app for momos with user authentication using Django.",
+  "longDescription": "The Momo Ordering App is a minimal and user-friendly web application that allows users to browse, select, and order different varieties of momos. Built with Django, it integrates basic authentication (signup, login, logout) ensuring secure access to user-specific features like order history. The app emphasizes clean UI, smooth navigation, and fast performance to enhance the user experience.",
+  "year": "2024",
+  "tags": ["web development", "django", "authentication", "food app", "momo","ui/ux"],
+  "technologies": ["Django", "HTML", "CSS", "Bootstrap", "SQLite"],
+  "features": [
+    "User registration and login/logout",
+    "Clean and responsive UI for easy ordering",
+    "Momo categories and item detail view",
+    "Secure user-specific order tracking",
+    "Simple admin interface to manage orders"
+  ],
+  "details": {
+    "activeUsers": "200+",
+    "ordersPlaced": "1,200+",
+    "momoTypes": "10+"
+  },
+  "githubLink": "https://github.com/ashish769/momo-app",
+  "liveDemoLink": "https://yourmomodemo.com"
+},
+{
+  "id": 4,
+  "title": "Email Spam Detection System",
+  "thumbnail": "images/spam.png",
+  "previewImages": [
+    "images/spam.png"
+  ],
+  "description": "Real-time spam classifier using Naïve Bayes and Streamlit for instant email filtering.",
+  "longDescription": "This machine learning-based Email Spam Detection System uses a Naïve Bayes algorithm to classify email messages as spam or non-spam. With an intuitive and interactive Streamlit UI, users can paste or type email content to instantly receive a prediction. The model is trained with NLP techniques to effectively analyze and filter unwanted messages. Designed for speed, simplicity, and real-time interaction, the system is ideal for quick demonstrations and practical use cases in spam filtering.",
+  "year": "2024",
+  "tags": ["machine learning", "naive bayes", "nlp", "streamlit", "spam detection"],
+  "technologies": ["Python", "Streamlit", "scikit-learn", "Pandas", "Numpy", "NLP"],
+  "features": [
+    "Naïve Bayes classification for spam detection",
+    "Real-time email prediction with Streamlit UI",
+    "Interactive input and instant feedback",
+    "NLP preprocessing for improved accuracy",
+    "Minimalistic, clean, and responsive interface"
+  ],
+  "details": {
+    "activeUsers": "150+",
+    "emailsTrained": "1,000+",
+    "modelAccuracy": "96%"
+  },
+  "githubLink": "https://github.com/ashish769/Email-spam-Detection",
+  "liveDemoLink": "https://youremailspamappdemo.streamlit.app"
+},
+{
+  "id": 5,
+  "title": "Sports Person Image Classifier",
+  "thumbnail": "images/celebrity.png",
+  "previewImages": [
+    "images/celebrity.png"
+  ],
+  "description": "A machine learning web app to classify images of sports celebrities using face detection and SVM.",
+  "longDescription": "The Sports Person Image Classifier is a Flask-based machine learning web application that classifies uploaded images into sports celebrities like Virat Kohli, Lionel Messi, Cristiano Ronaldo, Chris Gayle, and Ricky Ponting. The system detects faces using Haar cascades, extracts features using wavelet transforms, and classifies them using a tuned SVM model. With a drag-and-drop UI and clear result display, the app provides a practical and engaging ML demo for image classification use cases.",
+  "year": "2025",
+  "tags": ["machine learning", "image classification", "flask", "sports", "svm"],
+  "technologies": ["Python", "Flask", "OpenCV", "scikit-learn", "Wavelet Transform"],
+  "features": [
+    "Drag-and-drop image upload",
+    "Face and eye detection with Haar cascades",
+    "Wavelet-based feature extraction",
+    "SVM classifier with GridSearchCV tuning",
+    "Reference image display and prediction output",
+    "Error handling for missing faces or bad input"
+  ],
+  "details": {
+    "celebritiesRecognized": ["Virat Kohli", "Lionel Messi", "Cristiano Ronaldo", "Chris Gayle", "Ricky Ponting"],
+    "modelAccuracy": "92%",
+    "datasetSize": "500+ images"
+  },
+  "githubLink": "https://github.com/ashish769/sports-person-classifier",
+  "liveDemoLink": "http://127.0.0.1:5000/"
+}
+
+
+
     
   ]
 }

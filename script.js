@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let projects = [];
     let filteredProjects = [];
     let currentPage = 1;
-    const projectsPerPage = 6;
+    const projectsPerPage = 4;
     let currentFilter = 'all';
     let currentSort = 'newest';
     
