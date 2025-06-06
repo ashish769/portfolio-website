@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const closeModal = document.querySelector('.close-modal');
   
   // Load projects from JSON file
-  fetch('projects.json')
+  fetch(`https://cors-anywhere.herokuapp.com/https://ashishrajpoudel.com.np/projects.json`)
     .then(response => response.json())
     .then(data => {
       projects = data.projects;
