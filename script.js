@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const closeModal = document.querySelector('.close-modal');
   
   // Load projects from JSON file
-  fetch('https://ashishrajpoudel.com.np/projects.json')
+  fetch('https://www.ashishrajpoudel.com.np/projects.json')
     .then(response => response.json())
     .then(data => {
       projects = data.projects;
