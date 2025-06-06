@@ -1,0 +1,98 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Weather App",
+      "thumbnail": "images/lms.jpg",
+      "previewImages": [
+        "images/ecommerce.jpg",
+        "images/lms.jpg",
+        "images/licence.jpeg"
+      ],
+      "description": "A simple, sleek weather app designed with React Native (Expo). The UI focuses on clean, attractive design, displaying essential weather details like temperature, location, and weather conditions.",
+      "longDescription": "This weather application provides real-time weather updates with a beautiful, intuitive interface. Built with React Native and Expo, it features dynamic background changes based on current weather conditions, 5-day forecasts, and severe weather alerts. The app uses the OpenWeatherMap API to fetch accurate weather data for locations worldwide.",
+      "year": "2025",
+      "tags": ["app development", "react native", "expo", "tailwind", "mobile", "ui/ux"],
+      "technologies": ["React Native", "Expo", "Tailwind CSS", "OpenWeatherMap API"],
+      "features": [
+        "Real-time weather updates",
+        "5-day forecast",
+        "Location-based weather",
+        "Dynamic UI changes based on weather",
+        "Severe weather alerts"
+      ],
+      "details": {
+        "temperature": "12° c",
+        "location": "London",
+        "weatherCondition": "Partly Cloudy",
+        "humidity": "65%",
+        "windSpeed": "12 km/h",
+        "eventCalendar": {
+          "days": 16,
+          "events": 5
+        }
+      },
+      "githubLink": "https://github.com/yourusername/weather-app",
+      "liveDemoLink": "https://yourappdemo.com"
+    },
+    {
+      "id": 2,
+      "title": "E-commerce Platform",
+      "thumbnail": "images/ecommerce.jpg",
+      "previewImages": [
+         "images/ecommerce.jpg",
+        "images/lms.jpg",
+        "images/licence.jpeg"
+      ],
+      "description": "A full-featured e-commerce platform with product listings, cart functionality, and secure checkout.",
+      "longDescription": "This comprehensive e-commerce solution includes product catalog management, user authentication, shopping cart functionality, and secure payment processing. Built with MERN stack (MongoDB, Express, React, Node.js), it provides a seamless shopping experience with features like product search, filters, user reviews, and order tracking.",
+      "year": "2024",
+      "tags": ["web development", "react", "node.js", "mongodb", "fullstack", "ecommerce"],
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe API", "Redux"],
+      "features": [
+        "Product catalog with search and filters",
+        "User authentication",
+        "Shopping cart",
+        "Secure checkout with Stripe",
+        "Order history and tracking"
+      ],
+      "details": {
+        "monthlyVisitors": "10,000+",
+        "conversionRate": "3.2%",
+        "averageOrderValue": "$89.50"
+      },
+      "githubLink": "https://github.com/yourusername/ecommerce-app",
+      "liveDemoLink": "https://yourecommercedemo.com"
+    },
+    {
+      "id": 3,
+      "title": "Task Management Dashboard",
+      "thumbnail": "images/ashish.jpg",
+      "previewImages": [
+         "images/ecommerce.jpg",
+        "images/lms.jpg",
+        "images/licence.jpeg"
+      ],
+      "description": "Productivity application for task management with team collaboration features.",
+      "longDescription": "This task management solution helps individuals and teams organize their work with features like task assignment, due dates, priority levels, and progress tracking. The application includes real-time updates, notifications, and integrations with calendar apps. Built with Vue.js and Firebase for real-time data synchronization.",
+      "year": "2024",
+      "tags": ["web development", "vue", "firebase", "productivity", "dashboard"],
+      "technologies": ["Vue.js", "Firebase", "Vuetify", "Chart.js"],
+      "features": [
+        "Task creation and assignment",
+        "Due dates and reminders",
+        "Progress tracking",
+        "Team collaboration",
+        "Calendar integration"
+      ],
+      "details": {
+        "activeUsers": "500+",
+        "tasksCompleted": "15,000+",
+        "teamsUsing": "45+"
+      },
+      "githubLink": "https://github.com/yourusername/task-app",
+      "liveDemoLink": "https://yourtaskappdemo.com"
+    }
+    
+  ]
+}
